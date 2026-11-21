@@ -186,7 +186,6 @@ Passwords are hashed with **bcryptjs**. Login/register return a signed **JWT** (
 
 ## External Sources
 
-The following documentation and services informed the implementation and should be referenced in the supporting documentation using your required Harvard style:
 
 - MongoDB documentation – https://www.mongodb.com/docs/
 - Mongoose documentation – https://mongoosejs.com/docs/
