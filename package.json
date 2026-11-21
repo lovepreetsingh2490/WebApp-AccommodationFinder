@@ -1,0 +1,18 @@
+{
+  "name": "accommodation-finder",
+  "version": "1.0.0",
+  "description": "Accommodation Center Finder for Overseas Students - Full MERN Stack Application",
+  "private": true,
+  "scripts": {
+    "start": "cd server && npm start",
+    "install:all": "cd server && npm install && cd ../client && npm install",
+    "seed": "cd server && npm run seed",
+    "dev:server": "cd server && npm run dev",
+    "dev:client": "cd client && npm start",
+    "dev": "concurrently \"npm run dev:server\" \"npm run dev:client\"",
+    "build": "cd client && npm run build"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
+}
