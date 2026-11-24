@@ -5,13 +5,38 @@ node_modules/
 # Build output
 client/build/
 build/
+dist/
 
 # Environment files (keep .env.example tracked)
 .env
 **/.env
+.env.*
+**/.env.*
+!.env.example
 !**/.env.example
+
+# Test / coverage output
+coverage/
+.nyc_output/
 
 # Logs and OS files
 *.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
 .DS_Store
 Thumbs.db
+desktop.ini
+
+# Editor / IDE settings
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Temporary / backup files
+*.tmp
+*.bak
+*.orig
+*.rej
+.cache/
